@@ -1,0 +1,32 @@
+{
+  "name": "js-unit-testing",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "gulp test",
+    "test:coverage": "gulp test:coverage",
+    "lint": "eslint ./",
+    "test-mocha": "node_modules\\.bin\\mocha ./mocha_tests"
+  },
+  "author": {
+    "name": "Matsvei Murashka"
+  },
+  "license": "",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-jasmine": "^2.3.0",
+    "jasmine-reporters": "^2.1.1",
+    "mocha": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=6.9.1",
+    "npm": ">=3.10.8"
+  },
+  "devDependencies": {
+    "eslint": "^2.11.1"
+  }
+}
